@@ -1,19 +1,9 @@
 # LAB-Assignment-4-Visitor-Design-Pattern
+You are a software developer working on an e-commerce platform that sells various types of furniture (chairs, tables, sofas, etc.). You want to implement a functionality that calculates the shipping cost based on the furniture type and size.
 
-Problem Scenario
-Imagine you're considering depositing money in one of three banks: Cimb, SeaBank, or GoTyme. Each bank offers a unique interest rate and potential insurance benefits to entice you. Here's a breakdown of their offerings:
-Cimb:
-Interest rate: 2.6%
-Insurance: Up to a maximum of ₱250,000, proportional to your account balance (minimum balance of ₱50,000 required to qualify for insurance)
-SeaBank:
-Interest rate: 5%
-Insurance: Up to ₱1,000,000, proportional to your account balance (minimum balance of ₱50,000 required to qualify for insurance)
-GoTyme:
-Interest rate: 4.5%
-Insurance: No insurance offered
+Each furniture type might have its own unique shipping cost calculation logic. For example, chairs might be lightweight and have a flat shipping rate, while sofas might be bulky and require a distance-based shipping cost calculation. Implementing separate shipping logic within each furniture class would lead to tight coupling and difficulty adding new furniture types in the future.
 
-
-Implement a visitor design pattern to apply the open/closed principle and promote loose coupling.
-
+Implement a visitor design pattern approach. You must show the different elements of visitor design in your solution. DO NOT USE ABSTRACT CLASSES. You are free to name your interfaces and concrete classes. Have a client code that will test your program.
 
 UML Diagram:
+(i cant add picture i just added a png picture on files)
