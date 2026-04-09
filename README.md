@@ -7,3 +7,5 @@ Implement a visitor design pattern approach. You must show the different element
 
 UML Diagram:
 (i cant add picture i just added a png picture on files)
+
+<img width="1461" height="523" alt="image" src="https://github.com/user-attachments/assets/1db8a36c-83f4-488d-a268-1d99fe684f5a" />
